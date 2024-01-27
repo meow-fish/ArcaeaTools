@@ -25,7 +25,7 @@ struct ChartPotentialApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InputView()
         }
         .modelContainer(sharedModelContainer)
     }
