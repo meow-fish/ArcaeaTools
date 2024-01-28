@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1742AB462B66086C00D1D06F /* Potential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742AB452B66086C00D1D06F /* Potential.swift */; };
+		1742AB482B666F3500D1D06F /* WorldMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742AB472B666F3500D1D06F /* WorldMode.swift */; };
+		177436AE2B625D770074D9AC /* ArcaeaToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436AD2B625D770074D9AC /* ArcaeaToolsApp.swift */; };
+		177436B02B625D770074D9AC /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436AF2B625D770074D9AC /* InputView.swift */; };
+		177436B22B625D790074D9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177436B12B625D790074D9AC /* Assets.xcassets */; };
+		177436B62B625D790074D9AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177436B52B625D790074D9AC /* Preview Assets.xcassets */; };
+		177436C02B625D790074D9AC /* ArcaeaToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436BF2B625D790074D9AC /* ArcaeaToolsTests.swift */; };
+		177436CA2B625D790074D9AC /* ArcaeaToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436C92B625D790074D9AC /* ArcaeaToolsUITests.swift */; };
+		177436CC2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436CB2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		177436BC2B625D790074D9AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 177436A22B625D770074D9AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 177436A92B625D770074D9AC;
+			remoteInfo = ArcaeaTools;
+		};
+		177436C62B625D790074D9AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 177436A22B625D770074D9AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 177436A92B625D770074D9AC;
+			remoteInfo = ArcaeaTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1742AB452B66086C00D1D06F /* Potential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potential.swift; sourceTree = "<group>"; };
+		1742AB472B666F3500D1D06F /* WorldMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMode.swift; sourceTree = "<group>"; };
+		177436AA2B625D770074D9AC /* ArcaeaTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcaeaTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		177436AD2B625D770074D9AC /* ArcaeaToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsApp.swift; sourceTree = "<group>"; };
+		177436AF2B625D770074D9AC /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		177436B12B625D790074D9AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		177436B32B625D790074D9AC /* ArcaeaTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcaeaTools.entitlements; sourceTree = "<group>"; };
+		177436B52B625D790074D9AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		177436BB2B625D790074D9AC /* ArcaeaToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcaeaToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		177436BF2B625D790074D9AC /* ArcaeaToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsTests.swift; sourceTree = "<group>"; };
+		177436C52B625D790074D9AC /* ArcaeaToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcaeaToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		177436C92B625D790074D9AC /* ArcaeaToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsUITests.swift; sourceTree = "<group>"; };
+		177436CB2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		177436A72B625D770074D9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177436B82B625D790074D9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177436C22B625D790074D9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177436A12B625D770074D9AC = {
+			isa = PBXGroup;
+			children = (
+				177436AC2B625D770074D9AC /* ArcaeaTools */,
+				177436BE2B625D790074D9AC /* ArcaeaToolsTests */,
+				177436C82B625D790074D9AC /* ArcaeaToolsUITests */,
+				177436AB2B625D770074D9AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		177436AB2B625D770074D9AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				177436AA2B625D770074D9AC /* ArcaeaTools.app */,
+				177436BB2B625D790074D9AC /* ArcaeaToolsTests.xctest */,
+				177436C52B625D790074D9AC /* ArcaeaToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		177436AC2B625D770074D9AC /* ArcaeaTools */ = {
+			isa = PBXGroup;
+			children = (
+				177436AD2B625D770074D9AC /* ArcaeaToolsApp.swift */,
+				177436AF2B625D770074D9AC /* InputView.swift */,
+				1742AB452B66086C00D1D06F /* Potential.swift */,
+				1742AB472B666F3500D1D06F /* WorldMode.swift */,
+				177436B12B625D790074D9AC /* Assets.xcassets */,
+				177436B32B625D790074D9AC /* ArcaeaTools.entitlements */,
+				177436B42B625D790074D9AC /* Preview Content */,
+			);
+			path = ArcaeaTools;
+			sourceTree = "<group>";
+		};
+		177436B42B625D790074D9AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				177436B52B625D790074D9AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		177436BE2B625D790074D9AC /* ArcaeaToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				177436BF2B625D790074D9AC /* ArcaeaToolsTests.swift */,
+			);
+			path = ArcaeaToolsTests;
+			sourceTree = "<group>";
+		};
+		177436C82B625D790074D9AC /* ArcaeaToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				177436C92B625D790074D9AC /* ArcaeaToolsUITests.swift */,
+				177436CB2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift */,
+			);
+			path = ArcaeaToolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		177436A92B625D770074D9AC /* ArcaeaTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177436CF2B625D790074D9AC /* Build configuration list for PBXNativeTarget "ArcaeaTools" */;
+			buildPhases = (
+				177436A62B625D770074D9AC /* Sources */,
+				177436A72B625D770074D9AC /* Frameworks */,
+				177436A82B625D770074D9AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcaeaTools;
+			productName = ArcaeaTools;
+			productReference = 177436AA2B625D770074D9AC /* ArcaeaTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		177436BA2B625D790074D9AC /* ArcaeaToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177436D22B625D790074D9AC /* Build configuration list for PBXNativeTarget "ArcaeaToolsTests" */;
+			buildPhases = (
+				177436B72B625D790074D9AC /* Sources */,
+				177436B82B625D790074D9AC /* Frameworks */,
+				177436B92B625D790074D9AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				177436BD2B625D790074D9AC /* PBXTargetDependency */,
+			);
+			name = ArcaeaToolsTests;
+			productName = ArcaeaToolsTests;
+			productReference = 177436BB2B625D790074D9AC /* ArcaeaToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		177436C42B625D790074D9AC /* ArcaeaToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177436D52B625D790074D9AC /* Build configuration list for PBXNativeTarget "ArcaeaToolsUITests" */;
+			buildPhases = (
+				177436C12B625D790074D9AC /* Sources */,
+				177436C22B625D790074D9AC /* Frameworks */,
+				177436C32B625D790074D9AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				177436C72B625D790074D9AC /* PBXTargetDependency */,
+			);
+			name = ArcaeaToolsUITests;
+			productName = ArcaeaToolsUITests;
+			productReference = 177436C52B625D790074D9AC /* ArcaeaToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		177436A22B625D770074D9AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					177436A92B625D770074D9AC = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					177436BA2B625D790074D9AC = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 177436A92B625D770074D9AC;
+					};
+					177436C42B625D790074D9AC = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 177436A92B625D770074D9AC;
+					};
+				};
+			};
+			buildConfigurationList = 177436A52B625D770074D9AC /* Build configuration list for PBXProject "ArcaeaTools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 177436A12B625D770074D9AC;
+			productRefGroup = 177436AB2B625D770074D9AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				177436A92B625D770074D9AC /* ArcaeaTools */,
+				177436BA2B625D790074D9AC /* ArcaeaToolsTests */,
+				177436C42B625D790074D9AC /* ArcaeaToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		177436A82B625D770074D9AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177436B62B625D790074D9AC /* Preview Assets.xcassets in Resources */,
+				177436B22B625D790074D9AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177436B92B625D790074D9AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177436C32B625D790074D9AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		177436A62B625D770074D9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1742AB462B66086C00D1D06F /* Potential.swift in Sources */,
+				177436B02B625D770074D9AC /* InputView.swift in Sources */,
+				177436AE2B625D770074D9AC /* ArcaeaToolsApp.swift in Sources */,
+				1742AB482B666F3500D1D06F /* WorldMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177436B72B625D790074D9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177436C02B625D790074D9AC /* ArcaeaToolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177436C12B625D790074D9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177436CA2B625D790074D9AC /* ArcaeaToolsUITests.swift in Sources */,
+				177436CC2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		177436BD2B625D790074D9AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 177436A92B625D770074D9AC /* ArcaeaTools */;
+			targetProxy = 177436BC2B625D790074D9AC /* PBXContainerItemProxy */;
+		};
+		177436C72B625D790074D9AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 177436A92B625D770074D9AC /* ArcaeaTools */;
+			targetProxy = 177436C62B625D790074D9AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		177436CD2B625D790074D9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		177436CE2B625D790074D9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		177436D02B625D790074D9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArcaeaTools/ArcaeaTools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArcaeaTools/Preview Content\"";
+				DEVELOPMENT_TEAM = HDDG3WZ4AG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		177436D12B625D790074D9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArcaeaTools/ArcaeaTools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArcaeaTools/Preview Content\"";
+				DEVELOPMENT_TEAM = HDDG3WZ4AG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		177436D32B625D790074D9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDDG3WZ4AG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcaeaTools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArcaeaTools";
+			};
+			name = Debug;
+		};
+		177436D42B625D790074D9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDDG3WZ4AG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcaeaTools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArcaeaTools";
+			};
+			name = Release;
+		};
+		177436D62B625D790074D9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDDG3WZ4AG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcaeaTools;
+			};
+			name = Debug;
+		};
+		177436D72B625D790074D9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDDG3WZ4AG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcaeaTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		177436A52B625D770074D9AC /* Build configuration list for PBXProject "ArcaeaTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177436CD2B625D790074D9AC /* Debug */,
+				177436CE2B625D790074D9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177436CF2B625D790074D9AC /* Build configuration list for PBXNativeTarget "ArcaeaTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177436D02B625D790074D9AC /* Debug */,
+				177436D12B625D790074D9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177436D22B625D790074D9AC /* Build configuration list for PBXNativeTarget "ArcaeaToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177436D32B625D790074D9AC /* Debug */,
+				177436D42B625D790074D9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177436D52B625D790074D9AC /* Build configuration list for PBXNativeTarget "ArcaeaToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177436D62B625D790074D9AC /* Debug */,
+				177436D72B625D790074D9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 177436A22B625D770074D9AC /* Project object */;
+}
