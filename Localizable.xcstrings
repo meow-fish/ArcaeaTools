@@ -167,7 +167,14 @@
       }
     },
     "Functions" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功能"
+          }
+        }
+      }
     },
     "Get Play Rating" : {
       "extractionState" : "manual",
@@ -247,7 +254,14 @@
       }
     },
     "Tools" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "工具箱"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
