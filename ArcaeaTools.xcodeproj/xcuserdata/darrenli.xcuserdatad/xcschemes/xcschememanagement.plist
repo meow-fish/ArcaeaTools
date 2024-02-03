@@ -7,7 +7,30 @@
 		<key>ArcaeaTools.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Copy of ArcaeaTools.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>177436A92B625D770074D9AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>177436BA2B625D790074D9AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>177436C42B625D790074D9AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

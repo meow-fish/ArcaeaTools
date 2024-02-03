@@ -11,26 +11,27 @@ import Darwin
 
 
 struct ContentView: View {
-    let functions: [Function] = [.init(name: "Get Play Rating"),
-                                 .init(name: "Calculate World Mode Steps"),
-                                 .init(name: "Calculate Beyond Chapter Progression"),
-                                 .init(name: "Calculate Target Score by using Target Play Rating")]
+    let functions: [Function] = [.init(name: "Get Play Rating", page:1),
+                                 .init(name: "Calculate World Mode Steps", page:2),
+                                 .init(name: "Calculate Beyond Chapter Progression", page: 3),
+                                 .init(name: "Calculate Target Score by using Target Play Rating", page: 4)]
     @State private var path = NavigationPath()
     
     @ViewBuilder func switchFunctions(_ function:Function) -> some View{
-        switch function.name{
-        case "Get Play Rating":
+        switch function.page{
+        case 1:
             GetPlayRatingView()
-        case "Calculate World Mode Steps":
+        case 2:
             GetStepView()
-        case "Calculate Beyond Chapter Progression":
+        case 3:
             GetProgressionView()
-        case "Calculate Target Score by using Target Play Rating":
+        case 4:
             GetTargetScoreView()
         default:
             EmptyView()
         }
     }
+    
     
     @ViewBuilder var body: some View {
         NavigationStack(path: $path){
@@ -167,5 +168,6 @@ struct GetProgressionView: View {
     
 struct Function: Hashable {
     let name: String
+    let page: Int
 }
 
