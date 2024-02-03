@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170A70552B6E6B1900392E95 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 170A70542B6E6B1900392E95 /* Localizable.xcstrings */; };
 		1742AB462B66086C00D1D06F /* Potential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742AB452B66086C00D1D06F /* Potential.swift */; };
 		1742AB482B666F3500D1D06F /* WorldMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742AB472B666F3500D1D06F /* WorldMode.swift */; };
 		177436AE2B625D770074D9AC /* ArcaeaToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436AD2B625D770074D9AC /* ArcaeaToolsApp.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		170A70542B6E6B1900392E95 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		1742AB452B66086C00D1D06F /* Potential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potential.swift; sourceTree = "<group>"; };
 		1742AB472B666F3500D1D06F /* WorldMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMode.swift; sourceTree = "<group>"; };
 		177436AA2B625D770074D9AC /* ArcaeaTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcaeaTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 		177436A12B625D770074D9AC = {
 			isa = PBXGroup;
 			children = (
+				170A70542B6E6B1900392E95 /* Localizable.xcstrings */,
 				177436AC2B625D770074D9AC /* ArcaeaTools */,
 				177436BE2B625D790074D9AC /* ArcaeaToolsTests */,
 				177436C82B625D790074D9AC /* ArcaeaToolsUITests */,
@@ -221,6 +224,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 177436A12B625D770074D9AC;
 			productRefGroup = 177436AB2B625D770074D9AC /* Products */;
@@ -241,6 +245,7 @@
 			files = (
 				177436B62B625D790074D9AC /* Preview Assets.xcassets in Resources */,
 				177436B22B625D790074D9AC /* Assets.xcassets in Resources */,
+				170A70552B6E6B1900392E95 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -484,7 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

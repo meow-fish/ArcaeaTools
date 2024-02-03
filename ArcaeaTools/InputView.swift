@@ -55,7 +55,7 @@ struct GetPlayRatingView:View{
     @State private var score = ""
     @State private var constant = ""
     @ViewBuilder var body: some View{
-        VStack (spacing:15){
+        VStack (spacing:5){
             Section(header: Text("Score")){
                 TextField("Enter your score", text: $score)
                     .padding(.all, 20)
@@ -73,7 +73,7 @@ struct GetTargetScoreView:View{
     @State private var targetplayrating = ""
     @State private var constant = ""
     @ViewBuilder var body: some View{
-        VStack (spacing:15){
+        VStack (spacing:5){
             Section(header: Text("Target Play Rating")){
                 TextField("Enter your target play rating", text: $targetplayrating)
                     .padding(.all, 20)
@@ -95,7 +95,7 @@ struct GetStepView: View {
     @State private var fragmentBoost = "1"
     @State private var memoryBoost = "1"
     @ViewBuilder var body: some View {
-        VStack (spacing:15){
+        VStack (spacing:5){
             Section(header: Text("Score")){
                 TextField("Enter your score", text: $score)
                     .padding(.all, 20)
@@ -105,7 +105,7 @@ struct GetStepView: View {
                     .padding(.all, 20)
             }
             Section(header: Text("Partner Step Stats")){
-                TextField("Enter your partner step stas", text: $partnerstep)
+                TextField("Enter your partner step stats", text: $partnerstep)
                     .padding(.all, 20)
             }
             Section(header: Text("Stamina Boost")){
@@ -134,7 +134,7 @@ struct GetProgressionView: View {
     @State private var memoryBoost = "1"
     @State private var beyondBoost = "1"
     @ViewBuilder var body: some View {
-        VStack (spacing:15){
+        VStack (spacing:5){
             Section(header: Text("Score")){
                 TextField("Enter your score", text: $score)
                     .padding(.all, 20)
@@ -144,7 +144,7 @@ struct GetProgressionView: View {
                     .padding(.all, 20)
             }
             Section(header: Text("Partner Over Stats")){
-                TextField("Enter your partner over stas", text: $partnerover)
+                TextField("Enter your partner over stats", text: $partnerover)
                     .padding(.all, 20)
             }
             Section(header: Text("Beyond Boost")){

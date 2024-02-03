@@ -1,0 +1,254 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Beyond Boost" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beyond强化"
+          }
+        }
+      }
+    },
+    "Calculate Beyond Chapter Progression" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "计算Beyond章节进度"
+          }
+        }
+      }
+    },
+    "Calculate Target Score by using Target Play Rating" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以目标单曲潜力值计算目标分数"
+          }
+        }
+      }
+    },
+    "Calculate World Mode Steps" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "计算世界模式步数"
+          }
+        }
+      }
+    },
+    "Chart Constant" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "铺面定数"
+          }
+        }
+      }
+    },
+    "Enter Beyond Boost (default value is 1)" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入Beyond强化倍数（默认为1）"
+          }
+        }
+      }
+    },
+    "Enter Fragment Boost (default value is 1)" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入碎片强化倍数（默认为1）"
+          }
+        }
+      }
+    },
+    "Enter Memory Boost (default value is 1)" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入源点强化倍数（默认为1）"
+          }
+        }
+      }
+    },
+    "Enter Stamina Boost (default value is 1)" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入体力强化倍数（默认为1）"
+          }
+        }
+      }
+    },
+    "Enter the chart constant" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入铺面定数"
+          }
+        }
+      }
+    },
+    "Enter your partner over stats" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入搭档超限值"
+          }
+        }
+      }
+    },
+    "Enter your partner step stats" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入搭档步数值"
+          }
+        }
+      }
+    },
+    "Enter your score" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入游玩分数"
+          }
+        }
+      }
+    },
+    "Enter your target play rating" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入目标单曲潜力值"
+          }
+        }
+      }
+    },
+    "Fragment Boost" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "碎片强化"
+          }
+        }
+      }
+    },
+    "Functions" : {
+
+    },
+    "Get Play Rating" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "计算单曲潜力值"
+          }
+        }
+      }
+    },
+    "Memory Boost" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "源点强化"
+          }
+        }
+      }
+    },
+    "Partner Over Stats" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搭档超限值"
+          }
+        }
+      }
+    },
+    "Partner Step Stats" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搭档步数值"
+          }
+        }
+      }
+    },
+    "Score" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "游玩分数"
+          }
+        }
+      }
+    },
+    "Stamina Boost" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "体力强化"
+          }
+        }
+      }
+    },
+    "Target Play Rating" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目标单曲潜力值"
+          }
+        }
+      }
+    },
+    "Tools" : {
+
+    }
+  },
+  "version" : "1.0"
+}
