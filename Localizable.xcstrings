@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "Beyond Boost" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -198,6 +201,16 @@
         }
       }
     },
+    "None" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无"
+          }
+        }
+      }
+    },
     "Partner Over Stats" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -216,6 +229,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "搭档步数值"
+          }
+        }
+      }
+    },
+    "Play Rating" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "游玩铺面值"
           }
         }
       }
@@ -253,12 +276,89 @@
         }
       }
     },
+    "Target Score" : {
+
+    },
     "Tools" : {
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "工具箱"
+          }
+        }
+      }
+    },
+    "x.1.5" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1.5倍"
+          }
+        }
+      }
+    },
+    "x1.1" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1.1倍"
+          }
+        }
+      }
+    },
+    "x1.5" : {
+
+    },
+    "x1.25" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1.25倍"
+          }
+        }
+      }
+    },
+    "x2" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2倍"
+          }
+        }
+      }
+    },
+    "x3" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3倍"
+          }
+        }
+      }
+    },
+    "x4" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4倍"
+          }
+        }
+      }
+    },
+    "x6" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6倍"
           }
         }
       }

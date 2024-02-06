@@ -15,6 +15,7 @@ struct ContentView: View {
                                  .init(name: NSLocalizedString("Calculate World Mode Steps", comment: ""),page:2),
                                  .init(name: NSLocalizedString("Calculate Beyond Chapter Progression", comment: ""), page: 3),
                                  .init(name: NSLocalizedString("Calculate Target Score by using Target Play Rating", comment: ""), page: 4)]
+    
     @State private var path = NavigationPath()
     
     @ViewBuilder func switchFunctions(_ function:Function) -> some View{
@@ -56,16 +57,15 @@ struct GetPlayRatingView:View{
     @State private var score = ""
     @State private var constant = ""
     @ViewBuilder var body: some View{
-        VStack (spacing:5){
-            Section(header: Text("Score")){
-                TextField("Enter your score", text: $score)
-                    .padding(.all, 20)
-            }
-            Section(header: Text("Chart Constant")){
-                TextField("Enter the chart constant", text: $constant)
-                    .padding(.all, 20)
-            }
-            Text (String((PlayRating(Score:Double(score) ?? 0.0, Constant:Double(constant) ?? 0.0))))
+        Form{
+
+                TextField("Score", text: $score)
+                    .padding(.horizontal, 10)
+                TextField("Chart Constant", text: $constant)
+                    .padding(.horizontal, 10)
+                LabeledContent("Play Rating", value: String((PlayRating(Score:Double(score) ?? 0.0, Constant:Double(constant) ?? 0.0))))
+                    .padding(.horizontal, 10)
+            
         }
     }
 }
@@ -74,100 +74,139 @@ struct GetTargetScoreView:View{
     @State private var targetplayrating = ""
     @State private var constant = ""
     @ViewBuilder var body: some View{
-        VStack (spacing:5){
-            Section(header: Text("Target Play Rating")){
-                TextField("Enter your target play rating", text: $targetplayrating)
-                    .padding(.all, 20)
-            }
-            Section(header: Text("Chart Constant")){
-                TextField("Enter the chart constant", text: $constant)
-                    .padding(.all, 20)
-            }
-            Text (String(FindTargetScore(Constant: Double(constant) ?? 0.0, TargetPlayRating: Double(targetplayrating) ?? 0.0 )))
+        Form{
+                TextField("Target Play Rating", text: $targetplayrating)
+                    .padding(.horizontal, 10)
+                TextField("Chart Constant", text: $constant)
+                    .padding(.horizontal, 10)
+                LabeledContent("Target Score", value: String(FindTargetScore(Constant: Double(constant) ?? 0.0, TargetPlayRating: Double(targetplayrating) ?? 0.0 )))
+                    .padding(.horizontal, 10)
         }
     }
 }
 
 struct GetStepView: View {
+    enum FragmentBoost: Double, CaseIterable, Identifiable {
+        case none = 1.00
+        case oneone = 1.10
+        case onetwofive = 1.25
+        case onefive = 1.50
+        var id: Self { self }
+    }
+    @State private var selectedFragmentBoost: FragmentBoost = .none
+    
+    enum StaminaBoost: Double, CaseIterable, Identifiable {
+        case none = 1.00
+        case two = 2.00
+        case four = 4.00
+        case six = 6.00
+        var id: Self { self }
+    }
+    @State private var selectedStaminaBoost: StaminaBoost = .none
+    
     @State private var constant = ""
     @State private var score = ""
     @State private var partnerstep = ""
-    @State private var staminaBoost = "1"
-    @State private var fragmentBoost = "1"
-    @State private var memoryBoost = "1"
+    @State private var staminaBoost = ""
+    @State private var fragmentBoost = ""
+    @State private var memoryBoost = false
     @ViewBuilder var body: some View {
-        VStack (spacing:5){
-            Section(header: Text("Score")){
-                TextField("Enter your score", text: $score)
-                    .padding(.all, 20)
+        Form{
+            VStack{
+                TextField("Score", text: $score)
+                    .padding(.horizontal, 10)
+                TextField("Chart Constant", text: $constant)
+                    .padding(.horizontal, 10)
+                TextField("Partner Step Stats", text: $partnerstep)
+                    .padding(.horizontal, 10)
+                
+                Picker("Fragment Boost", selection: $selectedFragmentBoost) {
+                        Text("None").tag(FragmentBoost.none)
+                        Text("x1.1").tag(FragmentBoost.oneone)
+                        Text("x1.25").tag(FragmentBoost.onetwofive)
+                        Text("x1.5").tag(FragmentBoost.onefive)
+                    }
+                    .padding(.horizontal, 10)
+                Picker("Stamina Boost", selection: $selectedStaminaBoost) {
+                        Text("None").tag(StaminaBoost.none)
+                        Text("x2").tag(StaminaBoost.two)
+                        Text("x4").tag(StaminaBoost.four)
+                        Text("x6").tag(StaminaBoost.six)
+                    }
+                    .padding(.horizontal, 10)
+
+                Toggle("Memory Boost", isOn: $memoryBoost)
+                
+                LabeledContent("Play Rating", value: String(stepWorld(Score: Double(score) ?? 0, Constant: Double(constant) ?? 0, PartnerStep: Double(partnerstep) ?? 0, staminaBoost: selectedStaminaBoost.rawValue, fragmentBoost: selectedFragmentBoost.rawValue, memoryBoost: memoryBoost)))
+                .padding(.horizontal, 10)
+                
             }
-            Section(header: Text("Chart Constant")){
-                TextField("Enter the chart constant", text: $constant)
-                    .padding(.all, 20)
-            }
-            Section(header: Text("Partner Step Stats")){
-                TextField("Enter your partner step stats", text: $partnerstep)
-                    .padding(.all, 20)
-            }
-            Section(header: Text("Stamina Boost")){
-                TextField("Enter Stamina Boost (default value is 1)", text: $staminaBoost)
-                    .padding(.all, 20)
-            }
-            Section(header: Text("Fragment Boost")){
-                TextField("Enter Fragment Boost (default value is 1)", text: $fragmentBoost)
-                    .padding(.all, 20)
-            }
-            Section(header: Text("Memory Boost")){
-                TextField("Enter Memory Boost (default value is 1)", text: $memoryBoost)
-                    .padding(.all, 20)
-            }
-            Text (String(stepWorld(Score: Double(score) ?? 0.0, Constant: Double(constant) ?? 0.0, PartnerStep:Double(partnerstep) ?? 0.0 , staminaBoost: Double(staminaBoost) ?? 0.0, fragmentBoost: Double(fragmentBoost) ?? 0.0, memoryBoost: Double(memoryBoost) ?? 0.0 )))
+
         }
     }
-    
 }
 
 struct GetProgressionView: View {
+    enum FragmentBoost: Double, CaseIterable, Identifiable {
+        case none = 1.00
+        case oneone = 1.10
+        case onetwofive = 1.25
+        case onefive = 1.50
+        var id: Self { self }
+    }
+    @State private var selectedFragmentBoost: FragmentBoost = .none
+    
+    
+    enum BeyondBoost: Double, CaseIterable, Identifiable {
+        case none = 1.00
+        case two = 2.00
+        case three = 3.00
+        var id: Self { self }
+    }
+    @State private var selectedBeyondBoost: BeyondBoost = .none
+   
+    
     @State private var constant = ""
     @State private var score = ""
     @State private var partnerover = ""
-    @State private var fragmentBoost = "1"
-    @State private var memoryBoost = "1"
-    @State private var beyondBoost = "1"
+    @State private var memoryBoost = false
     @ViewBuilder var body: some View {
-        VStack (spacing:5){
-            Section(header: Text("Score")){
-                TextField("Enter your score", text: $score)
-                    .padding(.all, 20)
+        Form{
+            VStack{
+                TextField("Score", text: $score)
+                    .padding(.horizontal, 10)
+                TextField("Chart Constant", text: $constant)
+                    .padding(.horizontal, 10)
+                TextField("Partner Over Stats", text: $partnerover)
+                    .padding(.horizontal, 10)
+                
+                Picker("Fragment Boost", selection: $selectedFragmentBoost) {
+                        Text("None").tag(FragmentBoost.none)
+                        Text("x1.1").tag(FragmentBoost.oneone)
+                        Text("x1.25").tag(FragmentBoost.onetwofive)
+                        Text("x1.5").tag(FragmentBoost.onefive)
+                    }
+                    .padding(.horizontal, 10)
+                Picker("Beyond Boost", selection: $selectedBeyondBoost) {
+                        Text("None").tag(BeyondBoost.none)
+                        Text("x2").tag(BeyondBoost.two)
+                        Text("x3").tag(BeyondBoost.three)
+                    }
+                    .padding(.horizontal, 10)
+
+                Toggle("Memory Boost", isOn: $memoryBoost)
+                
+                LabeledContent("Play Rating", value: String(stepBeyond(Score: Double(score) ?? 0, Constant: Double(constant) ?? 0, PartnerOver: Double(constant) ?? 0, fragmentBoost: selectedFragmentBoost.rawValue, memoryBoost: memoryBoost, beyondBoost: selectedBeyondBoost.rawValue)))
+                .padding(.horizontal, 10)
+                
             }
-            Section(header: Text("Chart Constant")){
-                TextField("Enter the chart constant", text: $constant)
-                    .padding(.all, 20)
-            }
-            Section(header: Text("Partner Over Stats")){
-                TextField("Enter your partner over stats", text: $partnerover)
-                    .padding(.all, 20)
-            }
-            Section(header: Text("Beyond Boost")){
-                TextField("Enter Beyond Boost (default value is 1)", text: $beyondBoost)
-                    .padding(.all, 20)
-            }
-            Section(header: Text("Fragment Boost")){
-                TextField("Enter Fragment Boost (default value is 1)", text: $fragmentBoost)
-                    .padding(.all, 20)
-            }
-            Section(header: Text("Memory Boost")){
-                TextField("Enter Memory Boost (default value is 1)", text: $memoryBoost)
-                    .padding(.all, 20)
-            }
-            Text (String(stepBeyond(Score: Double(score) ?? 0.0, Constant: Double(constant) ?? 0.0, PartnerOver:Double(partnerover) ?? 0.0 , fragmentBoost: Double(fragmentBoost) ?? 0.0, memoryBoost: Double(memoryBoost) ?? 0.0, beyondBoost: Double(beyondBoost) ?? 0.0 )))
+
         }
-    }
-    
-}
+
+                    }
+                }
     
 struct Function: Hashable {
     let name: String
     let page: Int
 }
-
