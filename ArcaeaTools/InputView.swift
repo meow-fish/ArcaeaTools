@@ -11,10 +11,10 @@ import Darwin
 
 
 struct ContentView: View {
-    let functions: [Function] = [.init(name: "Get Play Rating", page:1),
-                                 .init(name: "Calculate World Mode Steps", page:2),
-                                 .init(name: "Calculate Beyond Chapter Progression", page: 3),
-                                 .init(name: "Calculate Target Score by using Target Play Rating", page: 4)]
+    let functions: [Function] = [.init(name: NSLocalizedString("Get Play Rating", comment: ""), page:1),
+                                 .init(name: NSLocalizedString("Calculate World Mode Steps", comment: ""),page:2),
+                                 .init(name: NSLocalizedString("Calculate Beyond Chapter Progression", comment: ""), page: 3),
+                                 .init(name: NSLocalizedString("Calculate Target Score by using Target Play Rating", comment: ""), page: 4)]
     @State private var path = NavigationPath()
     
     @ViewBuilder func switchFunctions(_ function:Function) -> some View{
