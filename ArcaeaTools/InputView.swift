@@ -10,7 +10,7 @@ import Foundation
 import Darwin
 
 
-struct ContentView: View {
+struct OldContentView: View {
     let functions: [Function] = [.init(name: NSLocalizedString("Get Play Rating", comment: ""), page:1),
                                  .init(name: NSLocalizedString("Calculate World Mode Steps", comment: ""),page:2),
                                  .init(name: NSLocalizedString("Calculate Beyond Chapter Progression", comment: ""), page: 3),
@@ -25,7 +25,7 @@ struct ContentView: View {
         case 2:
             GetStepView()
         case 3:
-            GetProgressionView()
+            EmptyView()
         case 4:
             GetTargetScoreView()
         default:
@@ -57,14 +57,13 @@ struct GetPlayRatingView:View{
     @State private var score = ""
     @State private var constant = ""
     @ViewBuilder var body: some View{
-        Form{
-
-                TextField("Score", text: $score)
-                    .padding(.horizontal, 10)
-                TextField("Chart Constant", text: $constant)
-                    .padding(.horizontal, 10)
-                LabeledContent("Play Rating", value: String((PlayRating(Score:Double(score) ?? 0.0, Constant:Double(constant) ?? 0.0))))
-                    .padding(.horizontal, 10)
+        VStack{
+            TextField("Score", text: $score)
+                .padding(.horizontal, 10)
+            TextField("Chart Constant", text: $constant)
+                .padding(.horizontal, 10)
+            LabeledContent("Play Rating", value: score)
+                .padding(.horizontal, 10)
             
         }
     }
@@ -156,65 +155,7 @@ struct GetStepView: View {
     }
 }
 
-struct GetProgressionView: View {
-    enum FragmentBoost: Double, CaseIterable, Identifiable {
-        case none = 1.00
-        case oneone = 1.10
-        case onetwofive = 1.25
-        case onefive = 1.50
-        var id: Self { self }
-    }
-    @State private var selectedFragmentBoost: FragmentBoost = .none
-    
-    
-    enum BeyondBoost: Double, CaseIterable, Identifiable {
-        case none = 1.00
-        case two = 2.00
-        case three = 3.00
-        var id: Self { self }
-    }
-    @State private var selectedBeyondBoost: BeyondBoost = .none
-   
-    
-    @State private var constant = ""
-    @State private var score = ""
-    @State private var partnerover = ""
-    @State private var memoryBoost = false
-    @ViewBuilder var body: some View {
-        Form{
-            VStack{
-                TextField("Score", text: $score)
-                    .padding(.horizontal, 10)
-                TextField("Chart Constant", text: $constant)
-                    .padding(.horizontal, 10)
-                TextField("Partner Over Stats", text: $partnerover)
-                    .padding(.horizontal, 10)
-                
-                Picker("Fragment Boost", selection: $selectedFragmentBoost) {
-                        Text("None").tag(FragmentBoost.none)
-                        Text("x1.1").tag(FragmentBoost.oneone)
-                        Text("x1.25").tag(FragmentBoost.onetwofive)
-                        Text("x1.5").tag(FragmentBoost.onefive)
-                    }
-                    .padding(.horizontal, 10)
-                Picker("Beyond Boost", selection: $selectedBeyondBoost) {
-                        Text("None").tag(BeyondBoost.none)
-                        Text("x2").tag(BeyondBoost.two)
-                        Text("x3").tag(BeyondBoost.three)
-                    }
-                    .padding(.horizontal, 10)
 
-                Toggle("Memory Boost", isOn: $memoryBoost)
-                
-                LabeledContent("Play Rating", value: String(stepBeyond(Score: Double(score) ?? 0, Constant: Double(constant) ?? 0, PartnerOver: Double(constant) ?? 0, fragmentBoost: selectedFragmentBoost.rawValue, memoryBoost: memoryBoost, beyondBoost: selectedBeyondBoost.rawValue)))
-                .padding(.horizontal, 10)
-                
-            }
-
-        }
-
-                    }
-                }
     
 struct Function: Hashable {
     let name: String

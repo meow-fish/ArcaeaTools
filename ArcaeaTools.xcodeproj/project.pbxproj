@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17035A422BAD40DF00322449 /* PlayRatingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17035A412BAD40DF00322449 /* PlayRatingDetailView.swift */; };
 		170A70552B6E6B1900392E95 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 170A70542B6E6B1900392E95 /* Localizable.xcstrings */; };
-		1742AB462B66086C00D1D06F /* Potential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742AB452B66086C00D1D06F /* Potential.swift */; };
-		1742AB482B666F3500D1D06F /* WorldMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742AB472B666F3500D1D06F /* WorldMode.swift */; };
+		1725D7D32BABD01200A16F32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D22BABD01200A16F32 /* ContentView.swift */; };
+		1725D7D52BABD08300A16F32 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D42BABD08300A16F32 /* MenuView.swift */; };
+		1725D7D72BABD0B300A16F32 /* NavigationStageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D62BABD0B300A16F32 /* NavigationStageManager.swift */; };
+		1725D7D92BABD17400A16F32 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D82BABD17400A16F32 /* DetailView.swift */; };
+		1725D7DB2BABD31A00A16F32 /* BeyondWorldDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7DA2BABD31A00A16F32 /* BeyondWorldDetailView.swift */; };
+		1725D7DD2BABD5D100A16F32 /* ModelBeyond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7DC2BABD5D100A16F32 /* ModelBeyond.swift */; };
 		177436AE2B625D770074D9AC /* ArcaeaToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436AD2B625D770074D9AC /* ArcaeaToolsApp.swift */; };
-		177436B02B625D770074D9AC /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436AF2B625D770074D9AC /* InputView.swift */; };
 		177436B22B625D790074D9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177436B12B625D790074D9AC /* Assets.xcassets */; };
 		177436B62B625D790074D9AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177436B52B625D790074D9AC /* Preview Assets.xcassets */; };
 		177436C02B625D790074D9AC /* ArcaeaToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436BF2B625D790074D9AC /* ArcaeaToolsTests.swift */; };
 		177436CA2B625D790074D9AC /* ArcaeaToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436C92B625D790074D9AC /* ArcaeaToolsUITests.swift */; };
 		177436CC2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436CB2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift */; };
+		17B0BB592BB18707002D2F18 /* WorldDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0BB582BB18707002D2F18 /* WorldDetailView.swift */; };
+		17B0BB5B2BB18882002D2F18 /* ModelWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0BB5A2BB18882002D2F18 /* ModelWorld.swift */; };
+		17FEB5132BABDCE700F690CD /* ModelPlayRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB5122BABDCE700F690CD /* ModelPlayRating.swift */; };
+		17FEB5152BABDEDB00F690CD /* ModelDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB5142BABDEDB00F690CD /* ModelDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17035A412BAD40DF00322449 /* PlayRatingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRatingDetailView.swift; sourceTree = "<group>"; };
 		170A70542B6E6B1900392E95 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		1742AB452B66086C00D1D06F /* Potential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potential.swift; sourceTree = "<group>"; };
-		1742AB472B666F3500D1D06F /* WorldMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMode.swift; sourceTree = "<group>"; };
+		1725D7D22BABD01200A16F32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1725D7D42BABD08300A16F32 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		1725D7D62BABD0B300A16F32 /* NavigationStageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStageManager.swift; sourceTree = "<group>"; };
+		1725D7D82BABD17400A16F32 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1725D7DA2BABD31A00A16F32 /* BeyondWorldDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondWorldDetailView.swift; sourceTree = "<group>"; };
+		1725D7DC2BABD5D100A16F32 /* ModelBeyond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBeyond.swift; sourceTree = "<group>"; };
 		177436AA2B625D770074D9AC /* ArcaeaTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcaeaTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177436AD2B625D770074D9AC /* ArcaeaToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsApp.swift; sourceTree = "<group>"; };
-		177436AF2B625D770074D9AC /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		177436B12B625D790074D9AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		177436B32B625D790074D9AC /* ArcaeaTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcaeaTools.entitlements; sourceTree = "<group>"; };
 		177436B52B625D790074D9AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,6 +63,10 @@
 		177436C52B625D790074D9AC /* ArcaeaToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcaeaToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		177436C92B625D790074D9AC /* ArcaeaToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsUITests.swift; sourceTree = "<group>"; };
 		177436CB2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17B0BB582BB18707002D2F18 /* WorldDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldDetailView.swift; sourceTree = "<group>"; };
+		17B0BB5A2BB18882002D2F18 /* ModelWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWorld.swift; sourceTree = "<group>"; };
+		17FEB5122BABDCE700F690CD /* ModelPlayRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPlayRating.swift; sourceTree = "<group>"; };
+		17FEB5142BABDEDB00F690CD /* ModelDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +119,17 @@
 			isa = PBXGroup;
 			children = (
 				177436AD2B625D770074D9AC /* ArcaeaToolsApp.swift */,
-				177436AF2B625D770074D9AC /* InputView.swift */,
-				1742AB452B66086C00D1D06F /* Potential.swift */,
-				1742AB472B666F3500D1D06F /* WorldMode.swift */,
+				17B0BB582BB18707002D2F18 /* WorldDetailView.swift */,
+				17B0BB5A2BB18882002D2F18 /* ModelWorld.swift */,
+				17035A412BAD40DF00322449 /* PlayRatingDetailView.swift */,
+				1725D7D82BABD17400A16F32 /* DetailView.swift */,
+				1725D7D62BABD0B300A16F32 /* NavigationStageManager.swift */,
+				1725D7D42BABD08300A16F32 /* MenuView.swift */,
+				1725D7D22BABD01200A16F32 /* ContentView.swift */,
+				1725D7DA2BABD31A00A16F32 /* BeyondWorldDetailView.swift */,
+				17FEB5142BABDEDB00F690CD /* ModelDataManager.swift */,
+				1725D7DC2BABD5D100A16F32 /* ModelBeyond.swift */,
+				17FEB5122BABDCE700F690CD /* ModelPlayRating.swift */,
 				177436B12B625D790074D9AC /* Assets.xcassets */,
 				177436B32B625D790074D9AC /* ArcaeaTools.entitlements */,
 				177436B42B625D790074D9AC /* Preview Content */,
@@ -270,10 +294,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1742AB462B66086C00D1D06F /* Potential.swift in Sources */,
-				177436B02B625D770074D9AC /* InputView.swift in Sources */,
+				17FEB5132BABDCE700F690CD /* ModelPlayRating.swift in Sources */,
+				17B0BB5B2BB18882002D2F18 /* ModelWorld.swift in Sources */,
+				1725D7D92BABD17400A16F32 /* DetailView.swift in Sources */,
+				1725D7D52BABD08300A16F32 /* MenuView.swift in Sources */,
+				1725D7D72BABD0B300A16F32 /* NavigationStageManager.swift in Sources */,
+				1725D7D32BABD01200A16F32 /* ContentView.swift in Sources */,
+				1725D7DD2BABD5D100A16F32 /* ModelBeyond.swift in Sources */,
+				17035A422BAD40DF00322449 /* PlayRatingDetailView.swift in Sources */,
+				17FEB5152BABDEDB00F690CD /* ModelDataManager.swift in Sources */,
 				177436AE2B625D770074D9AC /* ArcaeaToolsApp.swift in Sources */,
-				1742AB482B666F3500D1D06F /* WorldMode.swift in Sources */,
+				1725D7DB2BABD31A00A16F32 /* BeyondWorldDetailView.swift in Sources */,
+				17B0BB592BB18707002D2F18 /* WorldDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +484,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 0.3.1;
+				MARKETING_VERSION = 0.4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -491,7 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 0.3.1;
+				MARKETING_VERSION = 0.4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

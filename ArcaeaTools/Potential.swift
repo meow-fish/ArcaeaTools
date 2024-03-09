@@ -8,20 +8,20 @@
 import Foundation
 import Darwin
 
-func PlayRating(Score:Double, Constant:Double) -> Double{
-    var playRating:Double
-        if Score >= 10000000{
-            playRating = Constant + 2.0
-        } else if Score >= 9800000{
-            playRating = Constant+1.0+((Score-9800000.0)/200000.0)
-        } else {
-            playRating = Constant+((Score-9500000.0)/300000.0)
-        }
-    return playRating
-}
+//func PlayRating(Score:ModelPlayRating, Constant:Double) -> Double{
+    //var playRating:Double
+        //if Score >= 10000000{
+            //playRating = Constant + 2.0
+        //} else if Score >= 9800000{
+            //playRating = Constant+1.0+((Score-9800000.0)/200000.0)
+        //} else {
+            //playRating = Constant+((Score-9500000.0)/300000.0)
+        //}
+    //return playRating
+//}
 
 func FindTargetScore(Constant:Double, TargetPlayRating:Double) -> Double{
-    var constant = Constant
+    /*var constant = Constant
     var targetplayrating = TargetPlayRating
     var playrating:Double
     var target = 0.0
@@ -35,7 +35,8 @@ func FindTargetScore(Constant:Double, TargetPlayRating:Double) -> Double{
                 var i = i + 1
             }
         }
-        return target
+        return target*/
+    return 1.1
     }
 
 

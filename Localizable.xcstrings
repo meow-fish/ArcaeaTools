@@ -12,6 +12,7 @@
       }
     },
     "Amount of Round" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
@@ -22,6 +23,7 @@
       }
     },
     "Amount of Stamina" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
@@ -41,6 +43,9 @@
           }
         }
       }
+    },
+    "Beyond Chapter" : {
+
     },
     "Calculate Beyond Chapter Progression" : {
       "extractionState" : "manual",
@@ -197,6 +202,7 @@
       }
     },
     "Functions" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
@@ -218,6 +224,7 @@
       }
     },
     "Legacy Chapter" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
@@ -228,6 +235,7 @@
       }
     },
     "Map Length" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
@@ -290,6 +298,9 @@
         }
       }
     },
+    "Progress" : {
+
+    },
     "Score" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -313,6 +324,7 @@
       }
     },
     "Step" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
@@ -321,6 +333,9 @@
           }
         }
       }
+    },
+    "Steps" : {
+
     },
     "Target Play Rating" : {
       "extractionState" : "manual",
@@ -334,6 +349,7 @@
       }
     },
     "Target Score" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
@@ -344,6 +360,7 @@
       }
     },
     "Tools" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
@@ -352,6 +369,9 @@
           }
         }
       }
+    },
+    "World Chapter" : {
+
     },
     "x.1.5" : {
       "extractionState" : "stale",

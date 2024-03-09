@@ -14,9 +14,9 @@ func stepWorld (Score:Double, Constant:Double, PartnerStep:Double, staminaBoost:
     if memoryBoost == true{
         Boost = 4.0
     }
-    Boost = Boost*staminaBoost*fragmentBoost
+    /*Boost = Boost*staminaBoost*fragmentBoost
     Step = 2.5+sqrt(6*PlayRating(Score: Score, Constant: Constant))
-    Step = Step*(PartnerStep/50)*Boost
+    Step = Step*(PartnerStep/50)*Boost */
     return Step
 }
 
@@ -28,10 +28,11 @@ func stepBeyond (Score:Double, Constant:Double, PartnerOver:Double, fragmentBoos
     if memoryBoost == true{
         Boost = 4.0
     }
-    
+    /*
     Boost = Boost*fragmentBoost*beyondBoost
     Progression = sqrt(PlayRating(Score: Score, Constant: Constant))*7*0.125*(PartnerOver/50)*Boost
-    return Progression
+     */
+    return Step
 }
 
 func stepWorldRoundStamina (Score:Double, Constant:Double, PartnerStep:Double, staminaBoost:Double,Length:Double, fragmentBoost:Double, memoryBoost:Bool, Legacy:Bool, getStamina:Bool, getRound:Bool) -> Double{
@@ -51,3 +52,4 @@ func stepWorldRoundStamina (Score:Double, Constant:Double, PartnerStep:Double, s
     }
     
 }
+
