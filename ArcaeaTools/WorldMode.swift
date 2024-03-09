@@ -33,3 +33,10 @@ func stepBeyond (Score:Double, Constant:Double, PartnerOver:Double, fragmentBoos
     Progression = sqrt(PlayRating(Score: Score, Constant: Constant))*7*0.125*(PartnerOver/50)*Boost
     return Progression
 }
+
+func stepWorldRound (Score:Double, Constant:Double, PartnerStep:Double, staminaBoost:Double,Length:Double, fragmentBoost:Double, memoryBoost:Bool) -> Double{
+    var Step = stepWorld (Score:Score, Constant:Constant, PartnerStep:PartnerStep, staminaBoost:staminaBoost, fragmentBoost:fragmentBoost, memoryBoost:memoryBoost)
+    
+    var Round = Length/Step
+    return Round
+}
