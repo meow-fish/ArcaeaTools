@@ -34,9 +34,20 @@ func stepBeyond (Score:Double, Constant:Double, PartnerOver:Double, fragmentBoos
     return Progression
 }
 
-func stepWorldRound (Score:Double, Constant:Double, PartnerStep:Double, staminaBoost:Double,Length:Double, fragmentBoost:Double, memoryBoost:Bool) -> Double{
+func stepWorldRoundStamina (Score:Double, Constant:Double, PartnerStep:Double, staminaBoost:Double,Length:Double, fragmentBoost:Double, memoryBoost:Bool, Legacy:Bool, getStamina:Bool, getRound:Bool) -> Double{
     var Step = stepWorld (Score:Score, Constant:Constant, PartnerStep:PartnerStep, staminaBoost:staminaBoost, fragmentBoost:fragmentBoost, memoryBoost:memoryBoost)
-    
+    var StaminaCost:Double
     var Round = Length/Step
-    return Round
+    switch Legacy{
+    case true:
+        StaminaCost = Round*staminaBoost
+    case false:
+        StaminaCost = Round*2
+    }
+    if getStamina{
+        return StaminaCost
+    }else{
+        return Round
+    }
+    
 }

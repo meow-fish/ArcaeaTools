@@ -2,7 +2,34 @@
   "sourceLanguage" : "en",
   "strings" : {
     "" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "Amount of Round" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "局数"
+          }
+        }
+      }
+    },
+    "Amount of Stamina" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "体力消耗"
+          }
+        }
+      }
     },
     "Beyond Boost" : {
       "extractionState" : "manual",
@@ -190,6 +217,26 @@
         }
       }
     },
+    "Legacy Chapter" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "过去章节"
+          }
+        }
+      }
+    },
+    "Map Length" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "梯子长度"
+          }
+        }
+      }
+    },
     "Memory Boost" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -265,6 +312,16 @@
         }
       }
     },
+    "Step" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "步数"
+          }
+        }
+      }
+    },
     "Target Play Rating" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -277,7 +334,14 @@
       }
     },
     "Target Score" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目标分数"
+          }
+        }
+      }
     },
     "Tools" : {
       "localizations" : {
@@ -311,7 +375,14 @@
       }
     },
     "x1.5" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1.5倍"
+          }
+        }
+      }
     },
     "x1.25" : {
       "localizations" : {

@@ -109,7 +109,9 @@ struct GetStepView: View {
     @State private var partnerstep = ""
     @State private var staminaBoost = ""
     @State private var fragmentBoost = ""
+    @State private var length = ""
     @State private var memoryBoost = false
+    @State private var legacy = false
     @ViewBuilder var body: some View {
         Form{
             VStack{
@@ -119,7 +121,8 @@ struct GetStepView: View {
                     .padding(.horizontal, 10)
                 TextField("Partner Step Stats", text: $partnerstep)
                     .padding(.horizontal, 10)
-                
+                TextField("Map Length", text: $length)
+                    .padding(.horizontal, 10)
                 Picker("Fragment Boost", selection: $selectedFragmentBoost) {
                         Text("None").tag(FragmentBoost.none)
                         Text("x1.1").tag(FragmentBoost.oneone)
@@ -136,9 +139,16 @@ struct GetStepView: View {
                     .padding(.horizontal, 10)
 
                 Toggle("Memory Boost", isOn: $memoryBoost)
+                Toggle("Legacy Chapter", isOn: $legacy)
                 
-                LabeledContent("Play Rating", value: String(stepWorld(Score: Double(score) ?? 0, Constant: Double(constant) ?? 0, PartnerStep: Double(partnerstep) ?? 0, staminaBoost: selectedStaminaBoost.rawValue, fragmentBoost: selectedFragmentBoost.rawValue, memoryBoost: memoryBoost)))
+                LabeledContent("Step", value: String(stepWorld(Score: Double(score) ?? 0, Constant: Double(constant) ?? 0, PartnerStep: Double(partnerstep) ?? 0, staminaBoost: selectedStaminaBoost.rawValue, fragmentBoost: selectedFragmentBoost.rawValue, memoryBoost: memoryBoost)))
                 .padding(.horizontal, 10)
+                
+                LabeledContent("Amount of Stamina", value: String(stepWorldRoundStamina(Score: Double(score) ?? 0, Constant: Double(constant) ?? 0, PartnerStep: Double(partnerstep) ?? 0, staminaBoost: selectedStaminaBoost.rawValue, Length: Double(length) ?? 0, fragmentBoost: selectedFragmentBoost.rawValue, memoryBoost: memoryBoost, Legacy: legacy, getStamina: true, getRound: false)))
+                    .padding(.horizontal, 10)
+                
+                LabeledContent("Amount of Round", value: String(stepWorldRoundStamina(Score: Double(score) ?? 0, Constant: Double(constant) ?? 0, PartnerStep: Double(partnerstep) ?? 0, staminaBoost: selectedStaminaBoost.rawValue, Length: Double(length) ?? 0, fragmentBoost: selectedFragmentBoost.rawValue, memoryBoost: memoryBoost, Legacy: legacy, getStamina: false, getRound: true)))
+                    .padding(.horizontal, 10)
                 
             }
 
