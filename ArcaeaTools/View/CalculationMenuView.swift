@@ -1,27 +1,29 @@
 //
-//  MenuView.swift
+//  CalculationMenuView.swift
 //  ArcaeaTools
 //
 //  Created by Darren Li on 21/3/2024.
 //
 
 import SwiftUI
+import ImageIO
+import CoreImage
 import Combine
 
-struct MenuView: View {
+struct CalculationMenuView: View {
     
     @EnvironmentObject var navigationManager: NavigationStateManager
     
     var body: some View {
         
-        List(selection: $navigationManager.selectionState) {
+        List(selection: $navigationManager.selectionStateCalculation) {
             
             Text("Play Rating")
-                .tag(SelectionState.one)
+                .tag(DetailSelectionCalculation.one)
             Text("Beyond Chapter")
-                .tag(SelectionState.two)
+                .tag(DetailSelectionCalculation.two)
             Text("World Chapter")
-                .tag(SelectionState.three)
+                .tag(DetailSelectionCalculation.three)
             
         }
 

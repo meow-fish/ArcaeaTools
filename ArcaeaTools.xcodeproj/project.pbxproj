@@ -10,21 +10,24 @@
 		17035A422BAD40DF00322449 /* PlayRatingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17035A412BAD40DF00322449 /* PlayRatingDetailView.swift */; };
 		170A70552B6E6B1900392E95 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 170A70542B6E6B1900392E95 /* Localizable.xcstrings */; };
 		1725D7D32BABD01200A16F32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D22BABD01200A16F32 /* ContentView.swift */; };
-		1725D7D52BABD08300A16F32 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D42BABD08300A16F32 /* MenuView.swift */; };
+		1725D7D52BABD08300A16F32 /* CalculationMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D42BABD08300A16F32 /* CalculationMenuView.swift */; };
 		1725D7D72BABD0B300A16F32 /* NavigationStageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D62BABD0B300A16F32 /* NavigationStageManager.swift */; };
 		1725D7D92BABD17400A16F32 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D82BABD17400A16F32 /* DetailView.swift */; };
 		1725D7DB2BABD31A00A16F32 /* BeyondWorldDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7DA2BABD31A00A16F32 /* BeyondWorldDetailView.swift */; };
 		1725D7DD2BABD5D100A16F32 /* ModelBeyond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7DC2BABD5D100A16F32 /* ModelBeyond.swift */; };
+		173F56C82BB59523001B0924 /* SaveLocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F56C72BB59523001B0924 /* SaveLocalData.swift */; };
+		173F56CA2BB59684001B0924 /* SaveDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F56C92BB59684001B0924 /* SaveDataView.swift */; };
+		173F56CC2BB5A573001B0924 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F56CB2BB5A573001B0924 /* MenuView.swift */; };
 		177436AE2B625D770074D9AC /* ArcaeaToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436AD2B625D770074D9AC /* ArcaeaToolsApp.swift */; };
 		177436B22B625D790074D9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177436B12B625D790074D9AC /* Assets.xcassets */; };
-		177436B62B625D790074D9AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177436B52B625D790074D9AC /* Preview Assets.xcassets */; };
 		177436C02B625D790074D9AC /* ArcaeaToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436BF2B625D790074D9AC /* ArcaeaToolsTests.swift */; };
 		177436CA2B625D790074D9AC /* ArcaeaToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436C92B625D790074D9AC /* ArcaeaToolsUITests.swift */; };
 		177436CC2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436CB2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift */; };
 		17B0BB592BB18707002D2F18 /* WorldDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0BB582BB18707002D2F18 /* WorldDetailView.swift */; };
 		17B0BB5B2BB18882002D2F18 /* ModelWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0BB5A2BB18882002D2F18 /* ModelWorld.swift */; };
+		17E139302BC547CF00AADC1A /* DataMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E1392F2BC547CF00AADC1A /* DataMenuView.swift */; };
+		17E139322BC5705F00AADC1A /* SecondMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E139312BC5705F00AADC1A /* SecondMenuView.swift */; };
 		17FEB5132BABDCE700F690CD /* ModelPlayRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB5122BABDCE700F690CD /* ModelPlayRating.swift */; };
-		17FEB5152BABDEDB00F690CD /* ModelDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB5142BABDEDB00F690CD /* ModelDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,16 +51,18 @@
 		17035A412BAD40DF00322449 /* PlayRatingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRatingDetailView.swift; sourceTree = "<group>"; };
 		170A70542B6E6B1900392E95 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		1725D7D22BABD01200A16F32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1725D7D42BABD08300A16F32 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		1725D7D42BABD08300A16F32 /* CalculationMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationMenuView.swift; sourceTree = "<group>"; };
 		1725D7D62BABD0B300A16F32 /* NavigationStageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStageManager.swift; sourceTree = "<group>"; };
 		1725D7D82BABD17400A16F32 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		1725D7DA2BABD31A00A16F32 /* BeyondWorldDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondWorldDetailView.swift; sourceTree = "<group>"; };
 		1725D7DC2BABD5D100A16F32 /* ModelBeyond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBeyond.swift; sourceTree = "<group>"; };
+		173F56C72BB59523001B0924 /* SaveLocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLocalData.swift; sourceTree = "<group>"; };
+		173F56C92BB59684001B0924 /* SaveDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveDataView.swift; sourceTree = "<group>"; };
+		173F56CB2BB5A573001B0924 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		177436AA2B625D770074D9AC /* ArcaeaTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcaeaTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177436AD2B625D770074D9AC /* ArcaeaToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsApp.swift; sourceTree = "<group>"; };
 		177436B12B625D790074D9AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		177436B32B625D790074D9AC /* ArcaeaTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcaeaTools.entitlements; sourceTree = "<group>"; };
-		177436B52B625D790074D9AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		177436BB2B625D790074D9AC /* ArcaeaToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcaeaToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		177436BF2B625D790074D9AC /* ArcaeaToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsTests.swift; sourceTree = "<group>"; };
 		177436C52B625D790074D9AC /* ArcaeaToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcaeaToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +70,9 @@
 		177436CB2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		17B0BB582BB18707002D2F18 /* WorldDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldDetailView.swift; sourceTree = "<group>"; };
 		17B0BB5A2BB18882002D2F18 /* ModelWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWorld.swift; sourceTree = "<group>"; };
+		17E1392F2BC547CF00AADC1A /* DataMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMenuView.swift; sourceTree = "<group>"; };
+		17E139312BC5705F00AADC1A /* SecondMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMenuView.swift; sourceTree = "<group>"; };
 		17FEB5122BABDCE700F690CD /* ModelPlayRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPlayRating.swift; sourceTree = "<group>"; };
-		17FEB5142BABDEDB00F690CD /* ModelDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		173F56C32BB59307001B0924 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1725D7DA2BABD31A00A16F32 /* BeyondWorldDetailView.swift */,
+				17E139312BC5705F00AADC1A /* SecondMenuView.swift */,
+				17E1392F2BC547CF00AADC1A /* DataMenuView.swift */,
+				1725D7D22BABD01200A16F32 /* ContentView.swift */,
+				1725D7D42BABD08300A16F32 /* CalculationMenuView.swift */,
+				173F56CB2BB5A573001B0924 /* MenuView.swift */,
+				1725D7D82BABD17400A16F32 /* DetailView.swift */,
+				17035A412BAD40DF00322449 /* PlayRatingDetailView.swift */,
+				17B0BB582BB18707002D2F18 /* WorldDetailView.swift */,
+				173F56C92BB59684001B0924 /* SaveDataView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		173F56C42BB5932B001B0924 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				17B0BB5A2BB18882002D2F18 /* ModelWorld.swift */,
+				1725D7DC2BABD5D100A16F32 /* ModelBeyond.swift */,
+				17FEB5122BABDCE700F690CD /* ModelPlayRating.swift */,
+				1725D7D62BABD0B300A16F32 /* NavigationStageManager.swift */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		173F56C62BB594C5001B0924 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				173F56C72BB59523001B0924 /* SaveLocalData.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
 		177436A12B625D770074D9AC = {
 			isa = PBXGroup;
 			children = (
@@ -119,30 +161,13 @@
 			isa = PBXGroup;
 			children = (
 				177436AD2B625D770074D9AC /* ArcaeaToolsApp.swift */,
-				17B0BB582BB18707002D2F18 /* WorldDetailView.swift */,
-				17B0BB5A2BB18882002D2F18 /* ModelWorld.swift */,
-				17035A412BAD40DF00322449 /* PlayRatingDetailView.swift */,
-				1725D7D82BABD17400A16F32 /* DetailView.swift */,
-				1725D7D62BABD0B300A16F32 /* NavigationStageManager.swift */,
-				1725D7D42BABD08300A16F32 /* MenuView.swift */,
-				1725D7D22BABD01200A16F32 /* ContentView.swift */,
-				1725D7DA2BABD31A00A16F32 /* BeyondWorldDetailView.swift */,
-				17FEB5142BABDEDB00F690CD /* ModelDataManager.swift */,
-				1725D7DC2BABD5D100A16F32 /* ModelBeyond.swift */,
-				17FEB5122BABDCE700F690CD /* ModelPlayRating.swift */,
+				173F56C32BB59307001B0924 /* View */,
+				173F56C42BB5932B001B0924 /* Back */,
+				173F56C62BB594C5001B0924 /* LocalStorage */,
 				177436B12B625D790074D9AC /* Assets.xcassets */,
 				177436B32B625D790074D9AC /* ArcaeaTools.entitlements */,
-				177436B42B625D790074D9AC /* Preview Content */,
 			);
 			path = ArcaeaTools;
-			sourceTree = "<group>";
-		};
-		177436B42B625D790074D9AC /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				177436B52B625D790074D9AC /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		177436BE2B625D790074D9AC /* ArcaeaToolsTests */ = {
@@ -267,7 +292,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				177436B62B625D790074D9AC /* Preview Assets.xcassets in Resources */,
 				177436B22B625D790074D9AC /* Assets.xcassets in Resources */,
 				170A70552B6E6B1900392E95 /* Localizable.xcstrings in Resources */,
 			);
@@ -296,16 +320,20 @@
 			files = (
 				17FEB5132BABDCE700F690CD /* ModelPlayRating.swift in Sources */,
 				17B0BB5B2BB18882002D2F18 /* ModelWorld.swift in Sources */,
+				173F56C82BB59523001B0924 /* SaveLocalData.swift in Sources */,
 				1725D7D92BABD17400A16F32 /* DetailView.swift in Sources */,
-				1725D7D52BABD08300A16F32 /* MenuView.swift in Sources */,
+				1725D7D52BABD08300A16F32 /* CalculationMenuView.swift in Sources */,
 				1725D7D72BABD0B300A16F32 /* NavigationStageManager.swift in Sources */,
 				1725D7D32BABD01200A16F32 /* ContentView.swift in Sources */,
 				1725D7DD2BABD5D100A16F32 /* ModelBeyond.swift in Sources */,
 				17035A422BAD40DF00322449 /* PlayRatingDetailView.swift in Sources */,
-				17FEB5152BABDEDB00F690CD /* ModelDataManager.swift in Sources */,
 				177436AE2B625D770074D9AC /* ArcaeaToolsApp.swift in Sources */,
 				1725D7DB2BABD31A00A16F32 /* BeyondWorldDetailView.swift in Sources */,
+				17E139322BC5705F00AADC1A /* SecondMenuView.swift in Sources */,
+				173F56CC2BB5A573001B0924 /* MenuView.swift in Sources */,
 				17B0BB592BB18707002D2F18 /* WorldDetailView.swift in Sources */,
+				17E139302BC547CF00AADC1A /* DataMenuView.swift in Sources */,
+				173F56CA2BB59684001B0924 /* SaveDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

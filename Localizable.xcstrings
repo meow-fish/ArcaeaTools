@@ -11,6 +11,12 @@
         }
       }
     },
+    "A" : {
+
+    },
+    "AA" : {
+
+    },
     "Amount of Round" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -33,6 +39,12 @@
         }
       }
     },
+    "B" : {
+
+    },
+    "Beyond" : {
+
+    },
     "Beyond Boost" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -45,6 +57,9 @@
       }
     },
     "Beyond Chapter" : {
+
+    },
+    "C" : {
 
     },
     "Calculate Beyond Chapter Progression" : {
@@ -90,6 +105,15 @@
           }
         }
       }
+    },
+    "Chart level" : {
+        
+    },
+    "Chart Title" : {
+
+    },
+    "D" : {
+
     },
     "Enter Beyond Boost (default value is 1)" : {
       "extractionState" : "manual",
@@ -190,6 +214,15 @@
         }
       }
     },
+    "Eternal" : {
+
+    },
+    "EX" : {
+
+    },
+    "EX+" : {
+
+    },
     "Fragment Boost" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -212,6 +245,9 @@
         }
       }
     },
+    "Future" : {
+
+    },
     "Get Play Rating" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -222,6 +258,9 @@
           }
         }
       }
+    },
+    "Grade" : {
+
     },
     "Legacy Chapter" : {
       "extractionState" : "stale",
@@ -288,6 +327,9 @@
         }
       }
     },
+    "Past" : {
+
+    },
     "Play Rating" : {
       "localizations" : {
         "zh-Hans" : {
@@ -298,7 +340,16 @@
         }
       }
     },
+    "Present" : {
+
+    },
     "Progress" : {
+
+    },
+    "Save" : {
+
+    },
+    "Save Data" : {
 
     },
     "Score" : {

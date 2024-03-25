@@ -23,9 +23,7 @@ func Step (playrating:String, partnerstep:String, staminaboost:String, fragmentb
          dblstep = (2.5+sqrt(6*dblplayrating))*dblmemoryboost*dblfragmentboost*dblstaminaboost*dblpartnerstep/50
         
     }
-    /*Boost = Boost*staminaBoost*fragmentBoost
-    Step = 2.5+sqrt(6*PlayRating(Score: Score, Constant: Constant))
-    Step = Step*(PartnerStep/50)*Boost */
+    
     return String(dblstep)
 }
 
