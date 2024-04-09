@@ -12,10 +12,24 @@
       }
     },
     "A" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A"
+          }
+        }
+      }
     },
     "AA" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AA"
+          }
+        }
+      }
     },
     "Amount of Round" : {
       "extractionState" : "stale",
@@ -40,10 +54,24 @@
       }
     },
     "B" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B"
+          }
+        }
+      }
     },
     "Beyond" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beyond"
+          }
+        }
+      }
     },
     "Beyond Boost" : {
       "extractionState" : "manual",
@@ -57,10 +85,24 @@
       }
     },
     "Beyond Chapter" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beyond章节"
+          }
+        }
+      }
     },
     "C" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C"
+          }
+        }
+      }
     },
     "Calculate Beyond Chapter Progression" : {
       "extractionState" : "manual",
@@ -107,13 +149,54 @@
       }
     },
     "Chart level" : {
-        
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chart Level"
+          }
+        }
+      }
     },
     "Chart Title" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "铺面标题"
+          }
+        }
+      }
+    },
+    "Clear: %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通关：%@"
+          }
+        }
+      }
+    },
+    "Constant: %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Constant: %@"
+          }
+        }
+      }
     },
     "D" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "D"
+          }
+        }
+      }
     },
     "Enter Beyond Boost (default value is 1)" : {
       "extractionState" : "manual",
@@ -215,13 +298,34 @@
       }
     },
     "Eternal" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eternal"
+          }
+        }
+      }
     },
     "EX" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EX"
+          }
+        }
+      }
     },
     "EX+" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EX+"
+          }
+        }
+      }
     },
     "Fragment Boost" : {
       "extractionState" : "manual",
@@ -246,7 +350,14 @@
       }
     },
     "Future" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Future"
+          }
+        }
+      }
     },
     "Get Play Rating" : {
       "extractionState" : "manual",
@@ -260,7 +371,24 @@
       }
     },
     "Grade" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等级"
+          }
+        }
+      }
+    },
+    "Grade: %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等级： %@"
+          }
+        }
+      }
     },
     "Legacy Chapter" : {
       "extractionState" : "stale",
@@ -269,6 +397,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "过去章节"
+          }
+        }
+      }
+    },
+    "Level: %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Level: %@"
           }
         }
       }
@@ -328,7 +466,14 @@
       }
     },
     "Past" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Past"
+          }
+        }
+      }
     },
     "Play Rating" : {
       "localizations" : {
@@ -341,16 +486,54 @@
       }
     },
     "Present" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Present"
+          }
+        }
+      }
+    },
+    "Present Data" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "展示数据"
+          }
+        }
+      }
     },
     "Progress" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "进度"
+          }
+        }
+      }
     },
     "Save" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存"
+          }
+        }
+      }
     },
     "Save Data" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存数据"
+          }
+        }
+      }
     },
     "Score" : {
       "extractionState" : "manual",
@@ -359,6 +542,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "游玩分数"
+          }
+        }
+      }
+    },
+    "Score: %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分数： %@"
+          }
+        }
+      }
+    },
+    "Select a chart" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择铺面"
           }
         }
       }
@@ -386,7 +589,14 @@
       }
     },
     "Steps" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "步数"
+          }
+        }
+      }
     },
     "Target Play Rating" : {
       "extractionState" : "manual",
@@ -410,6 +620,16 @@
         }
       }
     },
+    "Title: %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title: %@"
+          }
+        }
+      }
+    },
     "Tools" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -422,7 +642,14 @@
       }
     },
     "World Chapter" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "世界章节"
+          }
+        }
+      }
     },
     "x.1.5" : {
       "extractionState" : "stale",

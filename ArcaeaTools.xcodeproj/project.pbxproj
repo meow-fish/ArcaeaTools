@@ -23,6 +23,7 @@
 		177436C02B625D790074D9AC /* ArcaeaToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436BF2B625D790074D9AC /* ArcaeaToolsTests.swift */; };
 		177436CA2B625D790074D9AC /* ArcaeaToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436C92B625D790074D9AC /* ArcaeaToolsUITests.swift */; };
 		177436CC2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436CB2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift */; };
+		178491C82BD0A60500EA483F /* PresentDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178491C72BD0A60500EA483F /* PresentDataView.swift */; };
 		17B0BB592BB18707002D2F18 /* WorldDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0BB582BB18707002D2F18 /* WorldDetailView.swift */; };
 		17B0BB5B2BB18882002D2F18 /* ModelWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0BB5A2BB18882002D2F18 /* ModelWorld.swift */; };
 		17E139302BC547CF00AADC1A /* DataMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E1392F2BC547CF00AADC1A /* DataMenuView.swift */; };
@@ -68,6 +69,7 @@
 		177436C52B625D790074D9AC /* ArcaeaToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcaeaToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		177436C92B625D790074D9AC /* ArcaeaToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsUITests.swift; sourceTree = "<group>"; };
 		177436CB2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		178491C72BD0A60500EA483F /* PresentDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentDataView.swift; sourceTree = "<group>"; };
 		17B0BB582BB18707002D2F18 /* WorldDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldDetailView.swift; sourceTree = "<group>"; };
 		17B0BB5A2BB18882002D2F18 /* ModelWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWorld.swift; sourceTree = "<group>"; };
 		17E1392F2BC547CF00AADC1A /* DataMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMenuView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				17035A412BAD40DF00322449 /* PlayRatingDetailView.swift */,
 				17B0BB582BB18707002D2F18 /* WorldDetailView.swift */,
 				173F56C92BB59684001B0924 /* SaveDataView.swift */,
+				178491C72BD0A60500EA483F /* PresentDataView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				1725D7D52BABD08300A16F32 /* CalculationMenuView.swift in Sources */,
 				1725D7D72BABD0B300A16F32 /* NavigationStageManager.swift in Sources */,
 				1725D7D32BABD01200A16F32 /* ContentView.swift in Sources */,
+				178491C82BD0A60500EA483F /* PresentDataView.swift in Sources */,
 				1725D7DD2BABD5D100A16F32 /* ModelBeyond.swift in Sources */,
 				17035A422BAD40DF00322449 /* PlayRatingDetailView.swift in Sources */,
 				177436AE2B625D770074D9AC /* ArcaeaToolsApp.swift in Sources */,
@@ -489,6 +493,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = ArcaeaTools/ArcaeaTools.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -511,7 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 0.5;
+				MARKETING_VERSION = 0.7;
 				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -527,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = ArcaeaTools/ArcaeaTools.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -549,7 +555,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 0.5;
+				MARKETING_VERSION = 0.7;
 				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

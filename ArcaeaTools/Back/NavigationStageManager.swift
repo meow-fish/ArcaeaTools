@@ -37,6 +37,7 @@ enum DetailSelectionCalculation:Hashable, Codable {
 
 enum DetailSelectionData:Hashable, Codable {
     case one
+    case two
 
 }
 
@@ -57,6 +58,9 @@ class NavigationStateManager: ObservableObject {
     }
     func goToDataOne(){
         selectionStateData = .one
+    }
+    func goToDataTwo(){
+        selectionStateData = .two
     }
 
 }

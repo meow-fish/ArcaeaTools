@@ -34,6 +34,8 @@ struct DetailView: View {
             switch stateData{
             case .one:
                 SaveDataView()
+            case .two:
+                PresentDataView()
             default:
                 EmptyView()
             }

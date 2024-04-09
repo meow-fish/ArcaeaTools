@@ -17,6 +17,8 @@ struct DataMenuView: View {
             
             Text("Save Data")
                 .tag(DetailSelectionData.one)
+            Text("Present Data")
+                .tag(DetailSelectionData.two)
 
         }
 
