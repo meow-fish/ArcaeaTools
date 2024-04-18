@@ -1,6 +1,6 @@
 ArcaeaTools
 =======
-English | [简体中文](./README-zh-hans.md)
+English | [简体中文](./README-zh-hans.md) | [繁體中文](./README-zh-hant.md)
 >A simple tool for Arcaea players
 
 ## Features:
