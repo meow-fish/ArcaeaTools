@@ -1,6 +1,6 @@
 ArcaeaTools
 ===========
-[English](./README.md) | [简体中文](./README-zh-hans.md) | 繁體中文
+繁體中文 | [English](./README.md) | [简体中文](./README-zh-hans.md)
 >一款基於Swift的Arcaea小工具
 ## 功能：
   1. 記錄及查閱遊玩紀錄
