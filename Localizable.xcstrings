@@ -485,6 +485,9 @@
         }
       }
     },
+    "Play Rating: %@" : {
+
+    },
     "Present" : {
       "localizations" : {
         "zh-Hans" : {

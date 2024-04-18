@@ -86,19 +86,18 @@ struct SaveDataView: View {
             .padding(.horizontal, 10)
             
             Button("Save") {
-                let newItem = ChartDataItem(title: title, level: selectedLevel.rawValue, constant: constant, score: score, grade: selectedGrade.rawValue, clear: selectedClear.rawValue)
-                
-                if let existingIndex = chartdata.firstIndex(where: { $0.title == newItem.title }) {
-                    if Int(newItem.score) ?? 0 > Int(chartdata[existingIndex].score) ?? 0 {
-                        chartdata[existingIndex] = newItem
+                let newItem = ChartDataItem(title: title, level: selectedLevel.rawValue, constant: constant, playrating: playrating, score: score, grade: selectedGrade.rawValue, clear: selectedClear.rawValue)
+                var existingData = loadDataFromFile()
+                if let existingIndex = existingData.firstIndex(where: { $0.title == newItem.title }) {
+                    if Int(newItem.score) ?? 0 >= Int(chartdata[existingIndex].score) ?? 0 {
+                        existingData[existingIndex] = newItem
                     }
                 } else {
-                    chartdata.append(newItem)
+                    existingData.append(newItem)
                 }
-                
+                chartdata = existingData
                 saveDataToFile(data: chartdata)
             }
-
         }
     }
 }

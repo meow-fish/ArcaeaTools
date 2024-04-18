@@ -29,6 +29,8 @@ struct PresentDataView: View {
                                 .padding(.horizontal, 10)
                             Text("Constant: \(selectedItem.constant)")
                                 .padding(.horizontal, 10)
+                            Text("Play Rating: \(selectedItem.playrating)")
+                                .padding(.horizontal, 10)
                             Text("Score: \(selectedItem.score)")
                                 .padding(.horizontal, 10)
                             Text("Grade: \(selectedItem.grade)")

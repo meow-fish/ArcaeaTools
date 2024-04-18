@@ -11,6 +11,7 @@ struct ChartDataItem: Codable {
     var title: String
     var level: String
     var constant: String
+    var playrating:String
     var score: String
     var grade: String
     var clear: String
@@ -36,7 +37,7 @@ func loadDataFromFile() -> [ChartDataItem] {
     if let url = getDataFileURL() {
         fileURL = url
     } else {
-        let documentsURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first!
+        let documentsURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask).last!
         fileURL = documentsURL.appendingPathComponent("chartdata.json")
     }
 
@@ -50,6 +51,7 @@ func loadDataFromFile() -> [ChartDataItem] {
         }
     } else {
         // Create a new file if it doesn't exist
+        print("Cannot locate previous file, create a new file instead")
         let newData: [ChartDataItem] = []
         saveDataToFile(data: newData, to: fileURL)
         return newData
@@ -61,7 +63,6 @@ func loadDataFromFile() -> [ChartDataItem] {
 func saveDataToFile(data: [ChartDataItem], to fileURL: URL? = nil) {
     let fileManager = FileManager.default
     let url = fileURL ?? fileManager.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent("chartdata.json")
-
     do {
         let encoder = JSONEncoder()
         encoder.outputFormatting = .prettyPrinted
