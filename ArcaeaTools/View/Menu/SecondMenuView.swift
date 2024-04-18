@@ -16,6 +16,6 @@ struct SecondMenuView: View {
         }else if category == .two{
             DataMenuView()
         }
-        }
+    }
 }
 

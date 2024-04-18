@@ -36,6 +36,8 @@ struct SaveDataView: View {
         case easy = "Easy"
         case normal = "Normal"
         case hard = "Hard"
+        case full_recall =  "Full Recall"
+        case pure_memory = "Pure Memory"
         var id: Self { self }
     }
     @State private var selectedClear: Clear = .normal
@@ -85,6 +87,14 @@ struct SaveDataView: View {
             }
             .padding(.horizontal, 10)
             
+            Picker("Clear", selection: $selectedClear){
+                Text("Normal").tag(Clear.normal)
+                Text("Easy").tag(Clear.easy)
+                Text("Hard").tag(Clear.hard)
+                Text("Full Recall").tag(Clear.full_recall)
+                Text("Pure Memory").tag(Clear.pure_memory)
+            }
+            .padding(.horizontal, 10)
             Button("Save") {
                 let newItem = ChartDataItem(title: title, level: selectedLevel.rawValue, constant: constant, playrating: playrating, score: score, grade: selectedGrade.rawValue, clear: selectedClear.rawValue)
                 var existingData = loadDataFromFile()
@@ -98,6 +108,7 @@ struct SaveDataView: View {
                 chartdata = existingData
                 saveDataToFile(data: chartdata)
             }
+            .padding(.horizontal, 10)
         }
     }
 }

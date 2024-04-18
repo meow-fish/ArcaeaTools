@@ -168,6 +168,9 @@
         }
       }
     },
+    "Clear" : {
+
+    },
     "Clear: %@" : {
       "localizations" : {
         "zh-Hans" : {
@@ -197,6 +200,9 @@
           }
         }
       }
+    },
+    "Easy" : {
+
     },
     "Enter Beyond Boost (default value is 1)" : {
       "extractionState" : "manual",
@@ -338,6 +344,9 @@
         }
       }
     },
+    "Full Recall" : {
+
+    },
     "Functions" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -389,6 +398,9 @@
           }
         }
       }
+    },
+    "Hard" : {
+
     },
     "Legacy Chapter" : {
       "extractionState" : "stale",
@@ -442,6 +454,9 @@
           }
         }
       }
+    },
+    "Normal" : {
+
     },
     "Partner Over Stats" : {
       "extractionState" : "manual",
@@ -517,6 +532,9 @@
           }
         }
       }
+    },
+    "Pure Memory" : {
+
     },
     "Save" : {
       "localizations" : {

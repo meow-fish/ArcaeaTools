@@ -14,10 +14,9 @@ struct MenuView: View {
         List(selection: $navigationManager.selectedCategory) {
                     
                     ForEach(Categories.allCases) { category in
-                        
                         NavigationLink(category.title(), value: category)
-                    }
-                    
-                }
+                        
+            }
+        }
     }
 }

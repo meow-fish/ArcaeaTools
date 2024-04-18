@@ -102,20 +102,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		173F56C32BB59307001B0924 /* View */ = {
+		172A1AD72BD247FA00103F43 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				1725D7D42BABD08300A16F32 /* CalculationMenuView.swift */,
+				17E1392F2BC547CF00AADC1A /* DataMenuView.swift */,
+				17E139312BC5705F00AADC1A /* SecondMenuView.swift */,
+				173F56CB2BB5A573001B0924 /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		172A1AD82BD2484300103F43 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				173F56C92BB59684001B0924 /* SaveDataView.swift */,
+				178491C72BD0A60500EA483F /* PresentDataView.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		172A1AD92BD2485F00103F43 /* Calculation */ = {
 			isa = PBXGroup;
 			children = (
 				1725D7DA2BABD31A00A16F32 /* BeyondWorldDetailView.swift */,
-				17E139312BC5705F00AADC1A /* SecondMenuView.swift */,
-				17E1392F2BC547CF00AADC1A /* DataMenuView.swift */,
-				1725D7D22BABD01200A16F32 /* ContentView.swift */,
-				1725D7D42BABD08300A16F32 /* CalculationMenuView.swift */,
-				173F56CB2BB5A573001B0924 /* MenuView.swift */,
-				1725D7D82BABD17400A16F32 /* DetailView.swift */,
 				17035A412BAD40DF00322449 /* PlayRatingDetailView.swift */,
 				17B0BB582BB18707002D2F18 /* WorldDetailView.swift */,
-				173F56C92BB59684001B0924 /* SaveDataView.swift */,
-				178491C72BD0A60500EA483F /* PresentDataView.swift */,
+			);
+			path = Calculation;
+			sourceTree = "<group>";
+		};
+		173F56C32BB59307001B0924 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1725D7D22BABD01200A16F32 /* ContentView.swift */,
+				1725D7D82BABD17400A16F32 /* DetailView.swift */,
+				172A1AD92BD2485F00103F43 /* Calculation */,
+				172A1AD82BD2484300103F43 /* Data */,
+				172A1AD72BD247FA00103F43 /* Menu */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -516,7 +540,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 0.7.1;
+				MARKETING_VERSION = 0.7.2;
 				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -555,7 +579,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 0.7.1;
+				MARKETING_VERSION = 0.7.2;
 				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

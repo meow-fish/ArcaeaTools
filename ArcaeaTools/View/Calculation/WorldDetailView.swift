@@ -81,9 +81,6 @@ struct WorldDetailView: View {
                 Toggle("Memory Boost", isOn: $memoryBoost)
                     .padding(.horizontal, 10)
 
-                
-                
-            
         }
     }
 }

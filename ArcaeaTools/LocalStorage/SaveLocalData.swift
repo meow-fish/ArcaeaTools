@@ -51,7 +51,7 @@ func loadDataFromFile() -> [ChartDataItem] {
         }
     } else {
         // Create a new file if it doesn't exist
-        print("Cannot locate previous file, create a new file instead")
+        print("Cannot load previous file, create a new file instead")
         let newData: [ChartDataItem] = []
         saveDataToFile(data: newData, to: fileURL)
         return newData

@@ -22,21 +22,41 @@ struct PresentDataView: View {
                     .padding(.horizontal, 10)
                     
                     if let selectedItem = chartdata.first(where: { $0.title == selectedItemTitle }) {
-                        Form{
+                        VStack(alignment: .leading){
                             Text("Title: \(selectedItem.title)")
                                 .padding(.horizontal, 10)
+                            Divider()
+                                .padding(.horizontal, 10)
+
                             Text("Level: \(selectedItem.level)")
                                 .padding(.horizontal, 10)
+                            Divider()
+                                .padding(.horizontal, 10)
+
                             Text("Constant: \(selectedItem.constant)")
                                 .padding(.horizontal, 10)
+                            Divider()
+                                .padding(.horizontal, 10)
+
                             Text("Play Rating: \(selectedItem.playrating)")
                                 .padding(.horizontal, 10)
+                            Divider()
+                                .padding(.horizontal, 10)
+
                             Text("Score: \(selectedItem.score)")
                                 .padding(.horizontal, 10)
+                            Divider()
+                                .padding(.horizontal, 10)
+
                             Text("Grade: \(selectedItem.grade)")
                                 .padding(.horizontal, 10)
+                            Divider()
+                                .padding(.horizontal, 10)
+
                             Text("Clear: \(selectedItem.clear)")
                                 .padding(.horizontal, 10)
+                            
+                            
                 }
             }
         }
