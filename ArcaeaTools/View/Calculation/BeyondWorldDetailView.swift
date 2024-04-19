@@ -26,7 +26,6 @@ struct BeyondWorldDetailView: View {
         var id: Self { self }
     }
     @State private var selectedBeyondBoost: BeyondBoost = .none
-   
     @State private var constant = ""
     @State private var score = ""
     @State private var playrating = ""
@@ -80,6 +79,5 @@ struct BeyondWorldDetailView: View {
                 
             
         }
-
-                    }
-                }
+    }
+}

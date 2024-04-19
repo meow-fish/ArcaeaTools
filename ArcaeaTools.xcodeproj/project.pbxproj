@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17035A422BAD40DF00322449 /* PlayRatingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17035A412BAD40DF00322449 /* PlayRatingDetailView.swift */; };
+		170916C32BE3882D0026CEF3 /* SaveLocalDataSQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170916C22BE3882D0026CEF3 /* SaveLocalDataSQLite.swift */; };
 		170A70552B6E6B1900392E95 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 170A70542B6E6B1900392E95 /* Localizable.xcstrings */; };
 		1725D7D32BABD01200A16F32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D22BABD01200A16F32 /* ContentView.swift */; };
 		1725D7D52BABD08300A16F32 /* CalculationMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D42BABD08300A16F32 /* CalculationMenuView.swift */; };
@@ -15,7 +16,6 @@
 		1725D7D92BABD17400A16F32 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7D82BABD17400A16F32 /* DetailView.swift */; };
 		1725D7DB2BABD31A00A16F32 /* BeyondWorldDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7DA2BABD31A00A16F32 /* BeyondWorldDetailView.swift */; };
 		1725D7DD2BABD5D100A16F32 /* ModelBeyond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7DC2BABD5D100A16F32 /* ModelBeyond.swift */; };
-		173F56C82BB59523001B0924 /* SaveLocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F56C72BB59523001B0924 /* SaveLocalData.swift */; };
 		173F56CA2BB59684001B0924 /* SaveDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F56C92BB59684001B0924 /* SaveDataView.swift */; };
 		173F56CC2BB5A573001B0924 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F56CB2BB5A573001B0924 /* MenuView.swift */; };
 		177436AE2B625D770074D9AC /* ArcaeaToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436AD2B625D770074D9AC /* ArcaeaToolsApp.swift */; };
@@ -24,6 +24,7 @@
 		177436CA2B625D790074D9AC /* ArcaeaToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436C92B625D790074D9AC /* ArcaeaToolsUITests.swift */; };
 		177436CC2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177436CB2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift */; };
 		178491C82BD0A60500EA483F /* PresentDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178491C72BD0A60500EA483F /* PresentDataView.swift */; };
+		179A1D542BE38E9A0073933D /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 179A1D532BE38E9A0073933D /* SQLite */; };
 		17B0BB592BB18707002D2F18 /* WorldDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0BB582BB18707002D2F18 /* WorldDetailView.swift */; };
 		17B0BB5B2BB18882002D2F18 /* ModelWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0BB5A2BB18882002D2F18 /* ModelWorld.swift */; };
 		17E139302BC547CF00AADC1A /* DataMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E1392F2BC547CF00AADC1A /* DataMenuView.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		17035A412BAD40DF00322449 /* PlayRatingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRatingDetailView.swift; sourceTree = "<group>"; };
+		170916C22BE3882D0026CEF3 /* SaveLocalDataSQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLocalDataSQLite.swift; sourceTree = "<group>"; };
 		170A70542B6E6B1900392E95 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		1725D7D22BABD01200A16F32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1725D7D42BABD08300A16F32 /* CalculationMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationMenuView.swift; sourceTree = "<group>"; };
@@ -57,7 +59,6 @@
 		1725D7D82BABD17400A16F32 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		1725D7DA2BABD31A00A16F32 /* BeyondWorldDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondWorldDetailView.swift; sourceTree = "<group>"; };
 		1725D7DC2BABD5D100A16F32 /* ModelBeyond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBeyond.swift; sourceTree = "<group>"; };
-		173F56C72BB59523001B0924 /* SaveLocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLocalData.swift; sourceTree = "<group>"; };
 		173F56C92BB59684001B0924 /* SaveDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveDataView.swift; sourceTree = "<group>"; };
 		173F56CB2BB5A573001B0924 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		177436AA2B625D770074D9AC /* ArcaeaTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcaeaTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +71,7 @@
 		177436C92B625D790074D9AC /* ArcaeaToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsUITests.swift; sourceTree = "<group>"; };
 		177436CB2B625D790074D9AC /* ArcaeaToolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaeaToolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		178491C72BD0A60500EA483F /* PresentDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentDataView.swift; sourceTree = "<group>"; };
+		179A1D512BE38E550073933D /* SQLite.swift-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SQLite.swift-master"; path = "../../../Downloads/SQLite.swift-master"; sourceTree = "<group>"; };
 		17B0BB582BB18707002D2F18 /* WorldDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldDetailView.swift; sourceTree = "<group>"; };
 		17B0BB5A2BB18882002D2F18 /* ModelWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWorld.swift; sourceTree = "<group>"; };
 		17E1392F2BC547CF00AADC1A /* DataMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMenuView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179A1D542BE38E9A0073933D /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +161,7 @@
 		173F56C62BB594C5001B0924 /* LocalStorage */ = {
 			isa = PBXGroup;
 			children = (
-				173F56C72BB59523001B0924 /* SaveLocalData.swift */,
+				170916C22BE3882D0026CEF3 /* SaveLocalDataSQLite.swift */,
 			);
 			path = LocalStorage;
 			sourceTree = "<group>";
@@ -166,11 +169,13 @@
 		177436A12B625D770074D9AC = {
 			isa = PBXGroup;
 			children = (
+				179A1D512BE38E550073933D /* SQLite.swift-master */,
 				170A70542B6E6B1900392E95 /* Localizable.xcstrings */,
 				177436AC2B625D770074D9AC /* ArcaeaTools */,
 				177436BE2B625D790074D9AC /* ArcaeaToolsTests */,
 				177436C82B625D790074D9AC /* ArcaeaToolsUITests */,
 				177436AB2B625D770074D9AC /* Products */,
+				179A1D522BE38E9A0073933D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,6 +219,13 @@
 			path = ArcaeaToolsUITests;
 			sourceTree = "<group>";
 		};
+		179A1D522BE38E9A0073933D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,6 +242,9 @@
 			dependencies = (
 			);
 			name = ArcaeaTools;
+			packageProductDependencies = (
+				179A1D532BE38E9A0073933D /* SQLite */,
+			);
 			productName = ArcaeaTools;
 			productReference = 177436AA2B625D770074D9AC /* ArcaeaTools.app */;
 			productType = "com.apple.product-type.application";
@@ -347,7 +362,6 @@
 			files = (
 				17FEB5132BABDCE700F690CD /* ModelPlayRating.swift in Sources */,
 				17B0BB5B2BB18882002D2F18 /* ModelWorld.swift in Sources */,
-				173F56C82BB59523001B0924 /* SaveLocalData.swift in Sources */,
 				1725D7D92BABD17400A16F32 /* DetailView.swift in Sources */,
 				1725D7D52BABD08300A16F32 /* CalculationMenuView.swift in Sources */,
 				1725D7D72BABD0B300A16F32 /* NavigationStageManager.swift in Sources */,
@@ -359,6 +373,7 @@
 				1725D7DB2BABD31A00A16F32 /* BeyondWorldDetailView.swift in Sources */,
 				17E139322BC5705F00AADC1A /* SecondMenuView.swift in Sources */,
 				173F56CC2BB5A573001B0924 /* MenuView.swift in Sources */,
+				170916C32BE3882D0026CEF3 /* SaveLocalDataSQLite.swift in Sources */,
 				17B0BB592BB18707002D2F18 /* WorldDetailView.swift in Sources */,
 				17E139302BC547CF00AADC1A /* DataMenuView.swift in Sources */,
 				173F56CA2BB59684001B0924 /* SaveDataView.swift in Sources */,
@@ -533,14 +548,16 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 0.7.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 0.7.3;
 				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -572,14 +589,16 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 0.7.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 0.7.3;
 				PRODUCT_BUNDLE_IDENTIFIER = darren.ArcaeaTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -720,6 +739,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		179A1D532BE38E9A0073933D /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 177436A22B625D770074D9AC /* Project object */;
 }

@@ -13,7 +13,7 @@ import SwiftData
 
 struct ContentView: View {
     //@StateObject var dataManager = ModelDataManager()
-    @State private var data: [ChartDataItem] = loadDataFromFile()
+    @State private var data: [ChartDataItem] = loadDataFromDatabase()
     @StateObject var navigationStateManager = NavigationStateManager()
     @SceneStorage("navigationState") var navigationStateData: Data?
         var body: some View {

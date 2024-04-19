@@ -7,15 +7,6 @@
 
 import Foundation
 
-struct ChartDataItem: Codable {
-    var title: String
-    var level: String
-    var constant: String
-    var playrating:String
-    var score: String
-    var grade: String
-    var clear: String
-}
 
 private let dataFileURLKey = "dataFileURL"
 

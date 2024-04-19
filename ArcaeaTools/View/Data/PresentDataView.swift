@@ -14,11 +14,11 @@ struct PresentDataView: View {
     
     var body: some View {
         Form {
-                Picker("Select a chart", selection: $selectedItemTitle) {
+                    Picker("Select a chart", selection: $selectedItemTitle) {
                         ForEach(chartdata, id: \.title) { item in
                             Text(item.title).tag(item.title)
                         }
-                    }
+                    }                    
                     .padding(.horizontal, 10)
                     
                     if let selectedItem = chartdata.first(where: { $0.title == selectedItemTitle }) {
@@ -56,12 +56,11 @@ struct PresentDataView: View {
                             Text("Clear: \(selectedItem.clear)")
                                 .padding(.horizontal, 10)
                             
-                            
                 }
             }
         }
         .onAppear {
-            chartdata = loadDataFromFile()
+            chartdata = loadDataFromDatabase()
         }
     }
 }
