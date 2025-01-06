@@ -19,7 +19,7 @@ struct SaveDataView: View {
         var id: Self { self }
     }
     @State private var selectedLevel: Level = .future
-    
+
     enum Grade: String, CaseIterable, Identifiable {
         case d = "D"
         case c = "C"
@@ -31,7 +31,7 @@ struct SaveDataView: View {
         var id: Self { self }
     }
     @State private var selectedGrade: Grade = .ex
-    
+
     enum Clear: String, CaseIterable, Identifiable {
         case easy = "Easy"
         case normal = "Normal"
@@ -41,7 +41,7 @@ struct SaveDataView: View {
         var id: Self { self }
     }
     @State private var selectedClear: Clear = .normal
-    
+
     @State private var constant = ""
     @State private var score = ""
     @State private var playrating = ""
@@ -51,48 +51,31 @@ struct SaveDataView: View {
         Form{
             TextField("Score", text: $score)
                 .padding(.horizontal, 10)
-                .onChange(of: score){
-                    score = Score(constant: constant, playrating: playrating, score: score)
-                }
             TextField("Chart Constant", text: $constant)
                 .padding(.horizontal, 10)
-                .onChange(of: constant){
-                    constant = Constant(score: score, playrating: playrating, constant: constant)
-                }
             TextField("Play Rating", text: $playrating)
                 .padding(.horizontal, 10)
-                .onChange(of: playrating){
-                    playrating = Playrating(score: score, constant: constant, playrating: playrating)
-                }
             TextField("Chart Title", text: $title)
                 .padding(.horizontal, 10)
 
             Picker("Chart level", selection: $selectedLevel){
-                Text("Past").tag(Level.past)
-                Text("Present").tag(Level.present)
-                Text("Future").tag(Level.future)
-                Text("Eternal").tag(Level.eternal)
-                Text("Beyond").tag(Level.beyond)
+                ForEach(Level.allCases, id: \.self) { level in
+                    Text(level.rawValue).tag(level)
+                }
             }
             .padding(.horizontal, 10)
-            
+
             Picker("Grade", selection: $selectedGrade){
-                Text("D").tag(Grade.d)
-                Text("C").tag(Grade.c)
-                Text("B").tag(Grade.b)
-                Text("A").tag(Grade.a)
-                Text("AA").tag(Grade.aa)
-                Text("EX").tag(Grade.ex)
-                Text("EX+").tag(Grade.exx)
+                ForEach(Grade.allCases, id: \.self) { grade in
+                    Text(grade.rawValue).tag(grade)
+                }
             }
             .padding(.horizontal, 10)
-            
+
             Picker("Clear", selection: $selectedClear){
-                Text("Normal").tag(Clear.normal)
-                Text("Easy").tag(Clear.easy)
-                Text("Hard").tag(Clear.hard)
-                Text("Full Recall").tag(Clear.full_recall)
-                Text("Pure Memory").tag(Clear.pure_memory)
+                ForEach(Clear.allCases, id: \.self) { clear in
+                    Text(clear.rawValue).tag(clear)
+                }
             }
             .padding(.horizontal, 10)
             Button("Save") {
@@ -112,4 +95,3 @@ struct SaveDataView: View {
         }
     }
 }
-
